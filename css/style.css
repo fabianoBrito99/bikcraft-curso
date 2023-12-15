@@ -7,6 +7,7 @@
 @import "./global/footer.css";
 
 @import "./utilidades/componentes.css";
+@import "./utilidades/formulario.css";
 
 @import "./home/introducao.css";
 @import "./home/tecnologia.css";
@@ -23,7 +24,13 @@
 
 @import "./bicicleta/seguro.css";
 
+@import "./contato/contato.css";
+@import "./contato/lojas.css";
+
+@import "./orcamento/orcamento.css";
+
 @import "./termos/termos.css"
+
 
 
 

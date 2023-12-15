@@ -17,6 +17,8 @@
   color: var(--cor-p5);
   font: 600 1.125rem/1.35 "Poppins", sans-serif;
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 
 .botao:hover {
@@ -76,9 +78,12 @@ transform: translateX(4px);
   padding-bottom: 60px;
   background-color: var(--cor-11);
 }
+
+
 .titulo p{
   margin-bottom: 4px;
 }
+
 
 @media(max-width:800px){
   .titulo-bg{
@@ -90,4 +95,8 @@ transform: translateX(4px);
     text-transform: lowercase;
     font-weight: 400;
   }
+  .titulo{
+    background: url("../../img/dec/top-right.svg") no-repeat top right 20px;
+     
+     }
 }
