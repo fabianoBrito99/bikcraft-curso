@@ -29,10 +29,11 @@
   background: var(--cor-0);
   margin-top: 4px;
   position: absolute;
-}
-.header-menu a:hover:after {
-  width: 100%;
   transition: 0.4s;
+}
+.header-menu a:hover::after,
+.header-menu a.ativo::after {
+  width: 100%;
 }
 
  @media (max-width: 600px) {
